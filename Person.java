@@ -1,4 +1,4 @@
-package Person;
+package main;
 
 public class Person {
     private String name;

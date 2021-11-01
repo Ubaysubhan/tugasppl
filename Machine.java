@@ -1,4 +1,4 @@
-package Machine;
+package main;
 
 public class Machine {
     

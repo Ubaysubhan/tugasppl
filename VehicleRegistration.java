@@ -1,4 +1,4 @@
-package Vehicle registration;
+package main;
 
 public class VehicleRegistration {
     
@@ -30,5 +30,9 @@ public class VehicleRegistration {
     
     public Integer setMachineNumber(Integer machineNumber) {
         this.machineNumber = machineNumber;
+    }
+
+    public VehicleRegistration (Vehicle vehicle){
+        this.vehicleMachineNumber = vehicle.getMachine();
     }
 }

@@ -1,4 +1,4 @@
-package Vehicle;
+package main;
 
 public class Vehicle implements Igniteable {
     private list <Person> Passenger: ;

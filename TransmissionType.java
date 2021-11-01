@@ -1,4 +1,4 @@
-package Transmission Type;
+package main;
 
 public class TransmissionType {
     
