@@ -1,12 +1,6 @@
 package Manual;
 
 
-/**
-* @generated
-*/
-public class Manual extends Transmission Type {
-    
-    
-    
+public class Manual extends TransmissionType {
     
 }

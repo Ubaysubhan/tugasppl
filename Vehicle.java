@@ -1,117 +1,47 @@
 package Vehicle;
 
-
-/**
-* @generated
-*/
-public class Vehicle implements igniteable {
+public class Vehicle implements Igniteable {
+    private list <Person> Passenger: ;
     
-    /**
-    * @generated
-    */
-    private list <person> -passenger: ;
-    
-    /**
-    * @generated
-    */
     private String state;
     
-    
-    /**
-    * @generated
-    */
     private Machine machine;
     
-    /**
-    * @generated
-    */
-    private Person person;
+    private TransmissionType transmissionType;
     
-    /**
-    * @generated
-    */
-    private Transmission Type transmission Type;
-    
-    
-    /**
-    * @generated
-    */
-    public list <person> get-passenger: () {
-        return this.-passenger: ;
+    public list <Person> getPassenger: () {
+        return this.Passenger: ;
     }
     
-    /**
-    * @generated
-    */
-    public list <person> set-passenger: (list <person> -passenger: ) {
-        this.-passenger:  = -passenger: ;
+    public list <Person> setPassenger: (list <Person> Passenger: ) {
+        this.Passenger:  = Passenger: ;
     }
     
-    /**
-    * @generated
-    */
     public String getState() {
         return this.state;
     }
     
-    /**
-    * @generated
-    */
     public String setState(String state) {
         this.state = state;
     }
     
-    
-    /**
-    * @generated
-    */
     public Machine getMachine() {
         return this.machine;
     }
     
-    /**
-    * @generated
-    */
     public Machine setMachine(Machine machine) {
         this.machine = machine;
     }
     
-    /**
-    * @generated
-    */
-    public Transmission Type getTransmission Type() {
-        return this.transmission Type;
+    public TransmissionType getTransmission Type() {
+        return this.transmissionType;
     }
     
-    /**
-    * @generated
-    */
-    public Transmission Type setTransmission Type(Transmission Type transmission Type) {
-        this.transmission Type = transmission Type;
+    public TransmissionType setTransmissionType(TransmissionType transmissionType) {
+        this.transmissionType = transmissionType;
     }
     
-    /**
-    * @generated
-    */
-    public Person getPerson() {
-        return this.person;
+    public addPassenger(Person person) {
+        this.passenger.add(person)
     }
-    
-    /**
-    * @generated
-    */
-    public Person setPerson(Person person) {
-        this.person = person;
-    }
-    
-
-    //                          Operations                                  
-    
-    /**
-    * @generated
-    */
-    public addPassengert() {
-        //TODO
-    }
-    
 }
