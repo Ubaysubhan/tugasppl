@@ -7,8 +7,6 @@ public class Person {
     
     private Integer weight;
     
-    private Vehicle vehicle;
-    
     public String getName() {
         return this.name;
     }
@@ -32,14 +30,4 @@ public class Person {
     public Integer setWeight(Integer weight) {
         this.weight = weight;
     }
-    
-    
-    public Vehicle getVehicle() {
-        return this.vehicle;
-    }
-    
-    public Vehicle setVehicle(Vehicle vehicle) {
-        this.vehicle = vehicle;
-    }
-    
 }

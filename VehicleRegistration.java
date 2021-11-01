@@ -31,6 +31,4 @@ public class VehicleRegistration {
     public Integer setMachineNumber(Integer machineNumber) {
         this.machineNumber = machineNumber;
     }
-    
-    
 }
